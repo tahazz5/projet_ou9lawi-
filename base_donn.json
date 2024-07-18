@@ -1,0 +1,169 @@
+{
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Color",
+      "active": 1
+    }
+  ],
+  "attribute_value": [
+    {
+      "id": 1,
+      "value": "Green",
+      "attribute_parent_id": 1
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "BrandName",
+      "active": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "CategoryName",
+      "active": 1
+    }
+  ],
+  "company": [
+    {
+      "id": 1,
+      "company_name": "Test",
+      "service_charge_value": "0",
+      "vat_charge_value": "0",
+      "address": "Madrid",
+      "phone": "",
+      "country": "Spain",
+      "message": "hello everyone one",
+      "currency": "USD"
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "group_name": "Administrator",
+      "permission": {
+        "createUser": true,
+        "updateUser": true,
+        "viewUser": true,
+        "deleteUser": true,
+        "createGroup": true,
+        "updateGroup": true,
+        "viewGroup": true,
+        "deleteGroup": true,
+        "createBrand": true,
+        "updateBrand": true,
+        "viewBrand": true,
+        "deleteBrand": true,
+        "createCategory": true,
+        "updateCategory": true,
+        "viewCategory": true,
+        "deleteCategory": true,
+        "createStore": true,
+        "updateStore": true,
+        "viewStore": true,
+        "deleteStore": true,
+        "createAttribute": true,
+        "updateAttribute": true,
+        "viewAttribute": true,
+        "deleteAttribute": true,
+        "createProduct": true,
+        "updateProduct": true,
+        "viewProduct": true,
+        "deleteProduct": true,
+        "createPurchases": true,
+        "updatePurchases": true,
+        "viewPurchases": true,
+        "deletePurchases": true,
+        "createOrder": true,
+        "updateOrder": true,
+        "viewOrder": true,
+        "deleteOrder": true,
+        "viewReports": true,
+        "updateCompany": true,
+        "viewProfile": true,
+        "updateSetting": true
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "bill_no": "12345",
+      "customer_name": "John Doe",
+      "customer_address": "123 Main St",
+      "customer_phone": "1234567890",
+      "date_time": "2024-01-22 12:24:00",
+      "gross_amount": "100.00",
+      "service_charge_rate": "5",
+      "service_charge": "5.00",
+      "vat_charge_rate": "10",
+      "vat_charge": "10.00",
+      "net_amount": "115.00",
+      "discount": "0",
+      "paid_status": 1,
+      "user_id": 1
+    }
+  ],
+  "orders_item": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "product_id": 1,
+      "qty": "2",
+      "rate": "50.00",
+      "amount": "100.00"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "ProductName",
+      "sku": "SKU001",
+      "price": "100.00",
+      "qty": "10",
+      "image": "image_url",
+      "description": "Product description",
+      "attribute_value_id": ["1"],
+      "brand_id": "1",
+      "category_id": "1",
+      "store_id": 1,
+      "availability": 1
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "price": "100.00",
+      "description": "Purchase description"
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "StoreName",
+      "active": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "adminknst",
+      "password": "$2y$10$yfi5nUQGXUZtMdl27dWAyOd/jMOmATBpiUvJDmUu9hJ5Ro6BE5wsK",
+      "email": "admin@admin.com",
+      "firstname": "John",
+      "lastname": "Doe",
+      "phone": "80789998",
+      "gender": 1
+    }
+  ],
+  "user_group": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "group_id": 1
+    }
+  ]
+}
